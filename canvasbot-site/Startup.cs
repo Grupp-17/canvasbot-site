@@ -33,6 +33,7 @@ namespace canvasbot_site
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseBrowserLink();
             }
             else
             {

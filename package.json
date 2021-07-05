@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.27.4",
+    "cssnano": "^5.0.6",
+    "gulp-sass": "^5.0.0",
+    "gulp-terser": "^2.0.1",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.1",
+    "terser": "^5.7.1"
+  }
+}
