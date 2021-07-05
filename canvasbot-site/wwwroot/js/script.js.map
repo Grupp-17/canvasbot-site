@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["script.js"],"sourcesContent":["function test() {\r\n    console.log(\"test\")\r\n}"],"file":"script.js"}
+{"version":3,"sources":["script.js"],"names":["test","console","log"],"mappings":"AAAA,SAASA,OACLC,QAAQC,IAAI","file":"script.js"}

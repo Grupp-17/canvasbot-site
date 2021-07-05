@@ -1,4 +1,5 @@
-﻿// Defining dependencies
+/// <binding ProjectOpened='default' />
+// Defining dependencies
 const { src, dest, watch, series } = require("gulp");
 const sass = require("gulp-sass")(require("sass"));
 const postcss = require("gulp-postcss");
@@ -41,6 +42,7 @@ function browsersyncServe(cb) {
     browsersync.init({
         proxy: "http://localhost:5000/",
         files: [paths.cshtml, paths.sassDest, paths.jsDest],
+        open: false,
         notify: false
     });
     cb();
