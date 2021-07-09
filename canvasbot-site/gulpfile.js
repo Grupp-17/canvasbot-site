@@ -42,7 +42,7 @@ function browsersyncServe(cb) {
     browsersync.init({
         proxy: "http://localhost:5000/",
         files: [paths.cshtml, paths.sassDest, paths.jsDest],
-        open: false,
+        open: true,
         notify: false
     });
     cb();

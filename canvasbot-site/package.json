@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Grupp-17/canvasbot-site#readme",
   "devDependencies": {
     "autoprefixer": "^10.2.6",
+    "bootstrap": "^5.0.2",
     "browser-sync": "^2.27.4",
     "cssnano": "^5.0.6",
     "gulp": "^4.0.2",
