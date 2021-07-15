@@ -1,18 +1,19 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "CanvasBot3000";
+    ViewData["Title"] = "CanvasBot";
 }
 
 <div class="text-center">
-    <h1 class="display-4">@ViewData["Title"]</h1>
+    <h1 id="title-margin" class="display-4">@ViewData["Title"]</h1>
     <div class="container">
         <div class="row justify-content-center">
             <row>
-                <button type="button" class="btn btn-primary">Primary</button>
-                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button id="add-to-discord" type="button" class="btn btn-primary btn-lg">Add to Discord</button>
             </row>
-            
+            <row>
+                <button type="button" class="btn btn-secondary btn-lg">Join our Server</button>
+            </row>
         </div>
     </div>
 </div>
