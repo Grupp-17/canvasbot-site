@@ -645,4 +645,8 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+wwwroot/css/*
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,visualstudiocode,node,aspnetcore
+canvasbot-site/wwwroot/css/style.css.map
+canvasbot-site/wwwroot/css/style.css
