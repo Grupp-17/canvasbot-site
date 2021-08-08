@@ -15,19 +15,20 @@
 
 $body-bg: rgb(255, 255, 255);
 
+
 @media (min-width: 544px) {  
     h5 {font-size:1.5rem !important;} /*1rem = 16px*/
 
 }
-
 @media (min-width: 992px) {  
     h5 {font-size:2rem !important;} /*1rem = 16px*/
+    h1 {font-size: calc(1.75rem + 1.5vw) !important}
     .dev-size {
         font-size:1.20rem !important;
-
-    }
-    
+    } 
 }
+
+
 
 
 
